@@ -1,1 +1,46 @@
+/home/.engr-ece/nrp211/EE465/Deliverable_2/deliverable_2_tb.v {1 {vlog -work work -vopt -stats=none /home/.engr-ece/nrp211/EE465/Deliverable_2/deliverable_2_tb.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module deliverable_2_tb
 
+Top level modules:
+	deliverable_2_tb
+
+} {} {}} /home/.engr-ece/nrp211/EE465/Deliverable_2/down_sampler_4.v {1 {vlog -work work -vopt -stats=none /home/.engr-ece/nrp211/EE465/Deliverable_2/down_sampler_4.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module down_sampler_4
+
+Top level modules:
+	down_sampler_4
+
+} {} {}} /home/.engr-ece/nrp211/EE465/Deliverable_2/rx_filter.v {1 {vlog -work work -vopt -stats=none /home/.engr-ece/nrp211/EE465/Deliverable_2/rx_filter.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module rx_filter
+
+Top level modules:
+	rx_filter
+
+} {} {}} /home/.engr-ece/nrp211/EE465/Deliverable_2/tx_filter_nomult.v {2 {vlog -work work -vopt -stats=none /home/.engr-ece/nrp211/EE465/Deliverable_2/tx_filter_nomult.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module tx_filter_nomult
+** Warning: /home/.engr-ece/nrp211/EE465/Deliverable_2/tx_filter_nomult.v(21): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+
+Top level modules:
+	tx_filter_nomult
+
+} {} {}} /home/.engr-ece/nrp211/EE465/Deliverable_2/up_sampler_4.v {1 {vlog -work work -vopt -stats=none /home/.engr-ece/nrp211/EE465/Deliverable_2/up_sampler_4.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module up_sampler_4
+
+Top level modules:
+	up_sampler_4
+
+} {} {}} /home/.engr-ece/nrp211/EE465/Deliverable_2/lfsr.v {2 {vlog -work work -vopt -stats=none /home/.engr-ece/nrp211/EE465/Deliverable_2/lfsr.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module lfsr
+** Warning: /home/.engr-ece/nrp211/EE465/Deliverable_2/lfsr.v(8): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: /home/.engr-ece/nrp211/EE465/Deliverable_2/lfsr.v(9): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+
+Top level modules:
+	lfsr
+
+} {} {}}

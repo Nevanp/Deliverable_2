@@ -1,6 +1,8 @@
 m255
 K4
 z2
+!s99 nomlopt
+!s11f MIXED_VERSIONS
 13
 !s112 1.1
 !i10d 8192
@@ -8,45 +10,167 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/18.1
+T_opt
+!s110 1706985564
+VRN;EKjjY=_W=a<f]VznS51
+04 16 4 work deliverable_2_tb fast 0
+=1-b07b2523f7f5-65be885c-9cd3f-25f6
+!s124 OEM10U6 
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
 vdeliverable_2_tb
-Z0 !s110 1706915687
+Z1 !s110 1706985561
 !i10b 1
-!s100 Jc=Y0PML;>PQ@TlR>c48>0
-ILfTG<VGf3f4bQAgTaEEIc2
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/Users/NevansPC/OneDrive/Desktop/Deliverable_2
-w1706915683
-8C:/Users/NevansPC/OneDrive/Desktop/Deliverable_2/deliverable_2_tb.v
-FC:/Users/NevansPC/OneDrive/Desktop/Deliverable_2/deliverable_2_tb.v
-L0 3
-Z3 OV;L;10.5b;63
+!s100 mm0oTbM><VV=Y;XOJ8=760
+IL2IVC4@ooDjkeSoBL?md03
+Z2 d/home/.engr-ece/nrp211/EE465/Deliverable_2
+w1706985385
+8/home/.engr-ece/nrp211/EE465/Deliverable_2/deliverable_2_tb.v
+F/home/.engr-ece/nrp211/EE465/Deliverable_2/deliverable_2_tb.v
+!i122 31
+L0 3 121
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2021.2;73
 r1
 !s85 0
 31
-Z4 !s108 1706915687.000000
-!s107 C:/Users/NevansPC/OneDrive/Desktop/Deliverable_2/deliverable_2_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/NevansPC/OneDrive/Desktop/Deliverable_2/deliverable_2_tb.v|
-!i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
-vlfsr
+!s108 1706985560.000000
+!s107 /home/.engr-ece/nrp211/EE465/Deliverable_2/deliverable_2_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/.engr-ece/nrp211/EE465/Deliverable_2/deliverable_2_tb.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R0
-!i10b 1
-!s100 YmE;dm4;iFee;KIKSZIDA1
-I2Y]Em@c17UA8VzMC4l>8:2
+vdown_sampler_4
 R1
+!i10b 1
+!s100 HlaKTI5D:o4GhA<N_OM;]3
+I=<gICnX]SB:6>b0n6;9jR1
 R2
-w1706915651
-8C:/Users/NevansPC/OneDrive/Desktop/Deliverable_2/lfsr.v
-FC:/Users/NevansPC/OneDrive/Desktop/Deliverable_2/lfsr.v
-L0 1
+w1706984887
+8/home/.engr-ece/nrp211/EE465/Deliverable_2/down_sampler_4.v
+F/home/.engr-ece/nrp211/EE465/Deliverable_2/down_sampler_4.v
+!i122 32
+L0 1 35
 R3
+R4
 r1
 !s85 0
 31
-R4
-!s107 C:/Users/NevansPC/OneDrive/Desktop/Deliverable_2/lfsr.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/NevansPC/OneDrive/Desktop/Deliverable_2/lfsr.v|
-!i113 1
+Z6 !s108 1706985561.000000
+!s107 /home/.engr-ece/nrp211/EE465/Deliverable_2/down_sampler_4.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/.engr-ece/nrp211/EE465/Deliverable_2/down_sampler_4.v|
+!i113 0
 R5
+R0
+vlfsr
+R1
+!i10b 1
+!s100 ]8zXHPOgNEk0DzT3Un7WL1
+II^nH59Go4=JL^3mTVzTUL3
+R2
+w1706985178
+8/home/.engr-ece/nrp211/EE465/Deliverable_2/lfsr.v
+F/home/.engr-ece/nrp211/EE465/Deliverable_2/lfsr.v
+!i122 33
+L0 1 31
+R3
+R4
+r1
+!s85 0
+31
 R6
+!s107 /home/.engr-ece/nrp211/EE465/Deliverable_2/lfsr.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/.engr-ece/nrp211/EE465/Deliverable_2/lfsr.v|
+!i113 0
+R5
+R0
+vrx_filter
+R1
+!i10b 1
+!s100 _jC=?f;RIOXMM_kQLA0aL3
+I;3NjT9gAHEH;ZifQBiYoN2
+R2
+w1706985554
+Z7 8/home/.engr-ece/nrp211/EE465/Deliverable_2/rx_filter.v
+Z8 F/home/.engr-ece/nrp211/EE465/Deliverable_2/rx_filter.v
+!i122 34
+Z9 L0 1 189
+R3
+R4
+r1
+!s85 0
+31
+R6
+Z10 !s107 /home/.engr-ece/nrp211/EE465/Deliverable_2/rx_filter.v|
+Z11 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/.engr-ece/nrp211/EE465/Deliverable_2/rx_filter.v|
+!i113 0
+R5
+R0
+vsin_filt
+!s110 1706985465
+!i10b 1
+!s100 oXR;IYl:QON<I6I4957;[1
+I;me@W?j`o137gh_ePdFcM3
+R2
+w1706382807
+R7
+R8
+!i122 28
+R9
+R3
+R4
+r1
+!s85 0
+31
+!s108 1706985465.000000
+R10
+R11
+!i113 0
+R5
+R0
+vtx_filter_nomult
+R1
+!i10b 1
+!s100 o=Jch?j;n]YOQTaHc0]Af2
+IWMMX@iH`[Ok8Ji_a3bV322
+R2
+w1706823847
+8/home/.engr-ece/nrp211/EE465/Deliverable_2/tx_filter_nomult.v
+F/home/.engr-ece/nrp211/EE465/Deliverable_2/tx_filter_nomult.v
+!i122 35
+L0 1 339
+R3
+R4
+r1
+!s85 0
+31
+R6
+!s107 /home/.engr-ece/nrp211/EE465/Deliverable_2/tx_filter_nomult.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/.engr-ece/nrp211/EE465/Deliverable_2/tx_filter_nomult.v|
+!i113 0
+R5
+R0
+vup_sampler_4
+R1
+!i10b 1
+!s100 3k`WUf9[MG>hdMfIz327m2
+IVgJljL1]I3elZCSGJEkNU3
+R2
+w1706111510
+8/home/.engr-ece/nrp211/EE465/Deliverable_2/up_sampler_4.v
+F/home/.engr-ece/nrp211/EE465/Deliverable_2/up_sampler_4.v
+!i122 36
+L0 1 33
+R3
+R4
+r1
+!s85 0
+31
+R6
+!s107 /home/.engr-ece/nrp211/EE465/Deliverable_2/up_sampler_4.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/.engr-ece/nrp211/EE465/Deliverable_2/up_sampler_4.v|
+!i113 0
+R5
+R0

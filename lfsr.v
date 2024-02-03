@@ -1,5 +1,6 @@
 module lfsr(
     input clk,
+    input clk_en,
     input reset,
     output reg signed [21:0] y
 );
@@ -14,13 +15,13 @@ always @ *
 always @ (posedge clk)
     if(reset)
     lfsr[0] <= 1'b1;
-    else
+    else if (clk_en)
     lfsr[0] <= xor_out;
 
 always @ (posedge clk)
     if(reset)
     lfsr [21:1] = 21'h1fffff;
-    else
+    else if (clk_en)
         lfsr[21:1] <= lfsr[20:0];
 
 always @ *
